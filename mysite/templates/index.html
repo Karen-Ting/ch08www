@@ -36,9 +36,9 @@
 
 <span class="glyphicon glyphicon-trash" onclick='go_delete({{p.id}})'></span>
 <script>
-function go_delete(id){
-    var user_pass = document.getElementById('user_pass').value;
-    if (user_pass != "") {
+        function go_delete(id){
+        var user_pass = document.getElementById('user_pass').value;
+        if (user_pass != "") {
         var usr = '/' + id + '/' + user_pass;
         window.location = usr;
     }
